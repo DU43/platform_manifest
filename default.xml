@@ -324,6 +324,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CDMATools" name="AOKP/packages_apps_CDMATools" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/ChaOSLauncher" name="DirtyUnicorns422/packages_apps_ChaOSLauncher" remote="aokp" revision="jellybean-mr1" />
   <project path="packages/apps/CMFileManager" name="DirtyUnicorns422/android_packages_apps_CMFileManager" remote="aokp" revision="cm-10.1" />
   <project path="packages/apps/Contacts" name="DirtyUnicorns422/packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DashClock" name="DirtyUnicorns422/android_packages_apps_DashClock" remote="aokp" revision="jb2" />
