@@ -434,7 +434,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/du" name="DirtyUnicorns422/vendor_du" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/htc" name="DirtyUnicorns422/proprietary_vendor_htc" remote="bitbucket" revision="jb2" />
+  <project path="vendor/htc" name="DirtyUnicorns422/proprietary_vendor_htc" remote="aokp" revision="jb2" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb-mr1" />
