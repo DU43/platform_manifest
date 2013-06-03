@@ -44,6 +44,8 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/htc/shooter" name="DirtyUnicorns422//device_htc_shooter" remote="aokp" revision="jellybean" />
+  <project path="device/htc/msm8660-common" name="DirtyUnicorns422/device_htc_msm8660-common" remote="aokp" revision="jellybean" />
   <project path="device/htc/evita" name="AOKP/device_htc_evita" remote="aokp" revision="jb-mr1" />
   <project path="device/htc/msm8960-common" name="DirtyUnicorns422/device_htc_msm8960-common" remote="aokp" revision="jb-mr1" />
   <project path="device/htc/s4-common" name="AOKP/device_htc_s4-common" remote="aokp" revision="jb-mr1" />
