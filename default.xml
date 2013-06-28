@@ -327,7 +327,7 @@
   <project path="packages/apps/ChaOSLauncher" name="DirtyUnicorns422/packages_apps_ChaOSLauncher" remote="aokp" revision="jellybean-mr1" />
   <project path="packages/apps/CMFileManager" name="DirtyUnicorns422/android_packages_apps_CMFileManager" remote="aokp" revision="cm-10.1" />
   <project path="packages/apps/Contacts" name="DirtyUnicorns422/packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/DashClock" name="DirtyUnicorns422/android_packages_apps_DashClock" remote="aokp" revision="jb2" />
+  <project path="packages/apps/DashClock" name="DirtyUnicorns422/android_packages_apps_DashClock" remote="aokp" revision="jb4.2" />
   <project path="packages/apps/DeskClock" name="DirtyUnicorns422/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DUChangelog" name="DirtyUnicorns422/packages_apps_duchangelog" remote="aokp" revision="master" />
   <project path="packages/apps/DSPManager" name="DirtyUnicorns422/android_packages_apps_DSPManager" remote="aokp" revision="cm-10.1" />
