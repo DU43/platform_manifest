@@ -13,6 +13,9 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="cfx"
+           fetch="https://bitbucket.org/codefirex/" />
+
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
@@ -44,6 +47,10 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
+  <project path="device/common" name="TeamPA/device_common" remote="aokp" revision="jellybean" />
+  <project path="device/htc/ace" name="TeamPA/android_device_htc_ace" remote="aokp" revision="classified" />
+  <project path="device/htc/common" name="TeamPA/device_htc_common" remote="aokp" revision="jellybean" />
+  <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="aokp" revision="kb-stable" />
   <project path="device/htc/evita" name="AOKP/device_htc_evita" remote="aokp" revision="jb-mr1" />
   <project path="device/htc/jewel" name="DirtyUnicorns422/android_device_htc_jewel" remote="aokp" revision="cm-10.1" />
   <project path="device/htc/msm8960-common" name="DirtyUnicorns422/android_device_htc_msm8960-common" remote="aokp" revision="cm-10.1" />
@@ -286,33 +293,24 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="DirtyUnicorns422/android_hardware_broadcom_wlan" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/invensense" name="DirtyUnicorns422/android_hardware_invensense" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/libhardware" name="DirtyUnicorns422/android_hardware_libhardware" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/libhardware_legacy" name="DirtyUnicorns422/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="DirtyUnicorns422/android_hardware_msm7k" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/audio" name="DirtyUnicorns422/android_hardware_qcom_audio" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="DirtyUnicorns422/android_hardware_qcom_audio-caf" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/bt" name="DirtyUnicorns422/android_hardware_qcom_bt" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/camera" name="DirtyUnicorns422/android_hardware_qcom_camera" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="DirtyUnicorns422/android_hardware_qcom_display" remote="aokp" revision="jb2" />
-  <project path="hardware/qcom/display-caf" name="DirtyUnicorns422/android_hardware_qcom_display-caf" remote="aokp" revision="jb2" />
-  <project name="DirtyUnicorns422/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="aokp" revision="cm-10.1_old" />
-  <project name="DirtyUnicorns422/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="aokp" revision="cm-10.1_old" />
-  <project path="hardware/qcom/gps" name="DirtyUnicorns422/android_hardware_qcom_gps" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/keymaster" name="DirtyUnicorns422/android_hardware_qcom_keymaster" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/media" name="DirtyUnicorns422/android_hardware_qcom_media" remote="aokp" revision="jb2" />
-  <project path="hardware/qcom/msm8960" name="DirtyUnicorns422/android_hardware_qcom_msm8960" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/power" name="DirtyUnicorns422/android_hardware_qcom_power" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/sensors" name="DirtyUnicorns422/android_hardware_qcom_sensors" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/wlan" name="DirtyUnicorns422/android_hardware_qcom_wlan" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/ril" name="DirtyUnicorns422/android_hardware_ril" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/samsung_slsi/exynos5" name="DirtyUnicorns422/android_hardware_samsung_slsi_exynos5" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/samsung" name="DirtyUnicorns422/android_hardware_samsung" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/ti/omap3" name="DirtyUnicorns422/android_hardware_ti_omap3" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/ti/omap4xxx" name="DirtyUnicorns422/android_hardware_ti_omap4xxx" remote="aokp" revision="jb2" />
-  <project path="hardware/ti/wlan" name="DirtyUnicorns422/android_hardware_ti_wlan" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="DirtyUnicorns422/android_hardware_ti_wpan" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="AOKP/hardware_qcom_audio-caf" remote="aokp" revision="jb-mr1" />
+  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="aokp" revision="Andro4.2" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="aokp" revision="jb4.2" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="aokp" revision="jellybean" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="aokp" revision="cm10.1" />
+  <project path="hardware/msm7k" name="Mustaavalkosta/android_hardware_msm7k" remote="aokp" revision="jb-mv" />
+  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="aokp" revision="cm10.1" />
+  <project path="hardware/ril" name="PipelinerArd/hardware_ril" remote="aokp" revision="jb-mv" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -394,34 +392,33 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="packages/wallpapers/SunBeam" name="DirtyUnicorns422/android_packages_wallpapers_SunBeam" remote="aokp" revision="cm-10.1" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="aokp" revision="cm-10.1" />
+  <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="aokp" revision="jb-mr1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="linux" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="darwin,arm" revision="master" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="darwin,arm" revision="master" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" />
-  <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.4.3" revision="jb-dev" />
-  <project path="prebuilts/gcc/linux-x86/arm" name="CarbonDev/android_toolchain_4.4.3" remote="aokp" revision="jb2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="linux,arm" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" />
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="linux,x86" />
-  <project path="prebuilts/misc" name="CarbonDev/android_prebuilts_misc" remote="aokp" revision="jb2" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="aokp" revision="cm-10.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="linux,arm" revision="master" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="DirtyUnicorns422/system_core" remote="aokp" revision="hybrid-testing" />
