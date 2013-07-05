@@ -310,7 +310,7 @@
   <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="aokp" revision="cm10.1" />
   <project path="hardware/msm7k" name="Mustaavalkosta/android_hardware_msm7k" remote="aokp" revision="jb-mv" />
   <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="aokp" revision="cm10.1" />
-  <project path="hardware/ril" name="PipelinerArd/hardware_ril" remote="aokp" revision="jb-mv" />
+  <project path="hardware/ril" name="Mustaavalkosta/android_hardware_ril" remote="aokp" revision="jb-mv" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
