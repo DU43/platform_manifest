@@ -316,6 +316,7 @@
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
+  <project path="packages/apps/About" name="DirtyUnicorns422/packages_apps_About" remote="aokp" revision="DU422" />
   <project path="packages/apps/Apollo" name="DirtyUnicorns422/android_packages_apps_Apollo" remote="aokp" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
