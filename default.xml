@@ -65,7 +65,7 @@
   <project path="device/samsung/celox-common" name="AOKP/device_samsung_celox-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2-common" name="AOKP/device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2att" name="AOKP/device_samsung_d2att" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2cri" name="DirtyUnicorns422/android_device_samsung_d2cri" revision="du" />
+  <project path="device/samsung/d2cri" name="DirtyUnicorns422/android_device_samsung_d2cri" remote="aokp" revision="du" />
   <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2usc" name="AOKP/device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2vzw" name="AOKP/device_samsung_d2vzw" remote="aokp" revision="jb-mr1" />
