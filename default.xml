@@ -46,8 +46,13 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/htc/evita" name="AOKP/device_htc_evita" remote="aokp" revision="jb-mr1" />
   <project path="device/htc/jewel" name="DirtyUnicorns422/android_device_htc_jewel" remote="aokp" revision="cm-10.1" />
-  <project path="device/htc/msm8960-common" name="DirtyUnicorns422/android_device_htc_msm8960-common" remote="aokp" revision="cm-10.1" />
-  <project path="device/htc/s4-common" name="DirtyUnicorns422/android_device_htc_s4-common" remote="aokp" revision="cm-10.1" />
+  <project path="device/htc/m7ul" name="DirtyUnicorns422/device_htc_m7ul" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/m7att" name="DirtyUnicorns422/device_htc_m7att" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/m7tmo" name="DirtyUnicorns422/device_htc_m7tmo" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/m7spr" name="DirtyUnicorns422/device_htc_m7spr" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/m7-common" name="DirtyUnicorns422/device_htc_m7-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/msm8960-common" name="DirtyUnicorns422/device_htc_msm8960-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/htc/s4-common" name="DirtyUnicorns422/device_htc_s4-common" remote="aokp" revision="jb-mr1" />
   <project path="device/htc/shooter" name="DirtyUnicorns422/device_htc_shooter" remote="aokp" revision="master" />
   <project path="device/htc/msm8660-common" name="DirtyUnicorns422/device_htc_msm8660-common" remote="aokp" revision="master" />
   <project path="device/lge/iprj-common" name="AOKP/device_lge_iprj-common" remote="aokp" revision="jb-mr1" />
@@ -287,33 +292,33 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="DirtyUnicorns422/android_hardware_broadcom_wlan" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/invensense" name="DirtyUnicorns422/android_hardware_invensense" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/libhardware" name="DirtyUnicorns422/android_hardware_libhardware" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/libhardware_legacy" name="DirtyUnicorns422/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="DirtyUnicorns422/android_hardware_msm7k" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/audio" name="DirtyUnicorns422/android_hardware_qcom_audio" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="DirtyUnicorns422/android_hardware_qcom_audio-caf" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/bt" name="DirtyUnicorns422/android_hardware_qcom_bt" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/camera" name="DirtyUnicorns422/android_hardware_qcom_camera" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="DirtyUnicorns422/android_hardware_qcom_display" remote="aokp" revision="jb2" />
-  <project path="hardware/qcom/display-caf" name="DirtyUnicorns422/android_hardware_qcom_display-caf" remote="aokp" revision="jb2" />
-  <project name="DirtyUnicorns422/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="aokp" revision="cm-10.1_old" />
-  <project name="DirtyUnicorns422/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="aokp" revision="cm-10.1_old" />
-  <project path="hardware/qcom/gps" name="DirtyUnicorns422/android_hardware_qcom_gps" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/keymaster" name="DirtyUnicorns422/android_hardware_qcom_keymaster" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/media" name="DirtyUnicorns422/android_hardware_qcom_media" remote="aokp" revision="jb2" />
-  <project path="hardware/qcom/msm8960" name="DirtyUnicorns422/android_hardware_qcom_msm8960" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/power" name="DirtyUnicorns422/android_hardware_qcom_power" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/sensors" name="DirtyUnicorns422/android_hardware_qcom_sensors" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/qcom/wlan" name="DirtyUnicorns422/android_hardware_qcom_wlan" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/ril" name="DirtyUnicorns422/android_hardware_ril" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/samsung_slsi/exynos5" name="DirtyUnicorns422/android_hardware_samsung_slsi_exynos5" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/samsung" name="DirtyUnicorns422/android_hardware_samsung" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/ti/omap3" name="DirtyUnicorns422/android_hardware_ti_omap3" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/ti/omap4xxx" name="DirtyUnicorns422/android_hardware_ti_omap4xxx" remote="aokp" revision="jb2" />
-  <project path="hardware/ti/wlan" name="DirtyUnicorns422/android_hardware_ti_wlan" remote="aokp" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="DirtyUnicorns422/android_hardware_ti_wpan" remote="aokp" revision="cm-10.1" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-10.1" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
+  <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.1" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-10.1" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
+  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
