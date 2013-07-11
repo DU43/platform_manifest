@@ -33,12 +33,8 @@
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="device/generic/mips" name="device/generic/mips" />
-  <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/htc/jewel" name="DirtyUnicorns422/android_device_htc_jewel" remote="aokp" revision="cm-10.1" />
