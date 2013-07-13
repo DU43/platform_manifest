@@ -316,7 +316,7 @@
   <project path="packages/apps/DeskClock" name="DirtyUnicorns422/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DUChangelog" name="DirtyUnicorns422/packages_apps_duchangelog" remote="aokp" revision="master" />
   <project path="packages/apps/DU-Stats" name="DirtyUnicorns422/packages_apps_DU-Stats" remote="aokp" revision="DU422" />
-  <project path="packages/apps/DSPManager" name="DirtyUnicorns422/android_packages_apps_DSPManager" remote="aokp" revision="cm-10.1" />
+  <project path="packages/apps/DSPManager" name="DirtyUnicorns422/android_packages_apps_DSPManager" remote="aokp" revision="DU422" />
   <project path="packages/apps/Email" name="DirtyUnicorns422/packages_apps_Email" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/EVWidgets" name="DirtyUnicorns422/android_packages_apps_EVWidgets" remote="aokp" revision="jellybean" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -412,7 +412,7 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr1" />
+  <project path="system/vold" name="DirtyUnicorns422/system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/du" name="DirtyUnicorns422/vendor_du" remote="aokp" revision="jb-mr1" />
