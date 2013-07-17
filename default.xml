@@ -32,6 +32,7 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="jb-mr1" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -417,6 +418,7 @@
   <project path="system/vold" name="DirtyUnicorns422/system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
+  <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/du" name="DirtyUnicorns422/vendor_du" remote="aokp" revision="jb-mr1" />
   <project path="vendor/htc" name="DirtyUnicorns422/proprietary_vendor_htc" remote="aokp" revision="jb2" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
