@@ -353,6 +353,7 @@
   <project path="packages/apps/Torch" name="DirtyUnicorns422/packages_apps_Torch" remote="aokp" revision="cm-10.1" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="DirtyUnicorns422/packages_apps_VoiceDialer" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Walls" name="DirtyUnicorns422/packages_apps_Walls" remote="aokp" revision="DU422" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="DirtyUnicorns422/packages_input_LatinIME" remote="aokp" revision="jb-mr1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
@@ -427,8 +428,6 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="DirtyUnicorns422/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="DirtyUnicorns422/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/products/themes" name="DirtyUnicorns422/vendor_tmobile_products_themes" remote="aokp" revision="cm-10.1" />
-
-  <project path="packages/wallpapers/DirtPapers" name="DirtyUnicorns422/packages_wallpapers_DirtPapers" remote="aokp" revision="jb" />
 
   <project path="platform_manifest" name="DirtyUnicorns422/platform_manifest" remote="aokp" revision="jb-mr1" />
 </manifest>
