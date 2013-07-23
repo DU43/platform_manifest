@@ -72,7 +72,7 @@
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8660-common" name="AOKP/device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/hercules" name="DirtyUnicorns422/android_device_samsung_hercules" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/hercules" name="DirtyUnicorns422/device_samsung_hercules" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d710" name="DirtyUnicorns422/android_device_samsung_d710" remote="aokp" revision="cm-10.1" />
    <project path="device/samsung/galaxys2-common" name="DirtyUnicorns422/android_device_samsung_galaxys2-common" remote="aokp" revision="cm-10.1" />
   <project path="device/samsung/epicmtd" name="DirtyUnicorns422/android_device_samsung_epicmtd" remote="aokp" revision="cm-10.1" /> 
