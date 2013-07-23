@@ -344,7 +344,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="DirtyUnicorns422/android_packages_apps_Provision" remote="aokp" revision="jellybean" />
   <project path="packages/apps/ROMControl" name="DirtyUnicorns422/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/QuickSearchBox" name="DirtyUnicorns422/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="DirtyUnicorns422/packages_apps_Settings" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="DirtyUnicorns422/packages_apps_SoundRecorder" remote="aokp" revision="cm-10.1" />
