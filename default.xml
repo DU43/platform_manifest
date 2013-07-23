@@ -19,7 +19,7 @@
 
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
-           sync-j="8" />
+           sync-j="4" />
 
   <project path="build" name="DirtyUnicorns422/build" remote="aokp" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
