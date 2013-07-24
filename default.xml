@@ -217,7 +217,7 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" />
+  <project path="external/sepolicy" name="DirtyUnicorns422/android_external_sepolicy" remote="aokp" revision="cm-10.1" />
   <project path="external/skia" name="DirtyUnicorns422/external_skia" remote="aokp" revision="jb-mr1" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -413,7 +413,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="DirtyUnicorns422/system_core" remote="aokp" revision="hybrid-testing" />
-  <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
+  <project path="system/extras" name="DirtyUnicorns422/android_system_extras" remote="aokp" revision="cm-10.1" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
   <project path="system/security" name="platform/system/security" />
