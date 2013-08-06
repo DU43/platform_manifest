@@ -273,7 +273,7 @@
   <project path="hardware/qcom/audio" name="DirtyUnicorns422/android_hardware_qcom_audio" remote="aokp" revision="cm-10.2" />
   <project path="hardware/qcom/audio-caf" name="DirtyUnicorns422/android_hardware_qcom_audio-caf" remote="aokp" revision="cm-10.2" />
   <project path="hardware/qcom/bt" name="DirtyUnicorns422/android_hardware_qcom_bt" remote="aokp" revision="cm-10.2" />
-  <project path="hardware/qcom/camera" name="DirtyUnicorns422/android_hardware_qcom_camera" remote="aokp" revision="cm-10.2" />
+  <project path="hardware/qcom/camera" name="DirtyUnicorns422/android_hardware_qcom_camera" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="DirtyUnicorns422/android_hardware_qcom_display" remote="aokp" revision="cm-10.2" />
   <project path="hardware/qcom/display-caf" name="DirtyUnicorns422/android_hardware_qcom_display-caf" remote="aokp" revision="cm-10.2" />
   <project path="hardware/qcom/gps" name="DirtyUnicorns422/android_hardware_qcom_gps" remote="aokp" revision="cm-10.2" />
