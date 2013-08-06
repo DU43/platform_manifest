@@ -246,7 +246,6 @@
   <project path="frameworks/av" name="DirtyUnicorns422/frameworks_av" remote="aokp" revision="DU43" />
   <project path="frameworks/base" name="DirtyUnicorns422/frameworks_base" remote="aokp" revision="DU43" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
-  <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
