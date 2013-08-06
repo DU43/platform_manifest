@@ -261,7 +261,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/telephony" name="DirtyUnicorns422/android_frameworks_opt_telephony" remote="aokp" revision="DU43" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="DirtyUnicorns/frameworks_rs" remote="aokp" revision="DU43" />
+  <project path="frameworks/rs" name="DirtyUnicorns422/frameworks_rs" remote="aokp" revision="DU43" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
