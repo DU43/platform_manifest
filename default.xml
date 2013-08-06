@@ -316,6 +316,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/CMFileManager" name="DirtyUnicorns422/android_packages_apps_CMFileManager" remote="aokp" revision="cm-10.1" />
   <project path="packages/apps/Contacts" name="DirtyUnicorns422/packages_apps_Contacts" remote="aokp" revision="DU43" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DashClock" name="DirtyUnicorns422/android_packages_apps_DashClock" remote="aokp" revision="DU422" />
   <project path="packages/apps/DeskClock" name="DirtyUnicorns422/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DUChangelog" name="DirtyUnicorns422/packages_apps_duchangelog" remote="aokp" revision="master" />
@@ -340,6 +341,7 @@
   <project path="packages/apps/PerformanceControl" name="DirtyUnicorns422/packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PermissionsManager" name="DirtyUnicorns422/packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="DirtyUnicorns422/packages_apps_Phone" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="DirtyUnicorns422/android_packages_apps_Provision" remote="aokp" revision="jellybean" />
   <project path="packages/apps/ROMControl" name="DirtyUnicorns422/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
