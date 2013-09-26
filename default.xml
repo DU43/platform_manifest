@@ -9,6 +9,9 @@
            fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
+  <remote name="tm"
+           fetch="git://github.com/TheMuppets/" />
+  
   <remote  name="cm"
            fetch="https://github.com/"
            review="review.cyanogenmod.com" />
@@ -43,48 +46,10 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/htc/jewel" name="DirtyUnicorns422/android_device_htc_jewel" remote="aokp" revision="cm-10.1" />
-  <project path="device/htc/m7ul" name="DirtyUnicorns422/device_htc_m7ul" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/m7att" name="DirtyUnicorns422/device_htc_m7att" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/m7tmo" name="DirtyUnicorns422/device_htc_m7tmo" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/m7spr" name="DirtyUnicorns422/device_htc_m7spr" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/m7-common" name="DirtyUnicorns422/device_htc_m7-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/msm8960-common" name="DirtyUnicorns422/device_htc_msm8960-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/s4-common" name="DirtyUnicorns422/device_htc_s4-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/htc/shooter" name="DirtyUnicorns422/device_htc_shooter" remote="aokp" revision="master" />
-  <project path="device/htc/msm8660-common" name="DirtyUnicorns422/device_htc_msm8660-common" remote="aokp" revision="master" />
-  <project path="device/lge/iprj-common" name="AOKP/device_lge_iprj-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/lge/p930" name="AOKP/device_lge_p930" remote="aokp" revision="jb-mr1" />
-  <project path="device/lge/su640" name="AOKP/device_lge_su640" remote="aokp" revision="jb-mr1" />
-  <project path="device/lge/vs920" name="AOKP/device_lge_vs920" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/omap4-common" name="DirtyUnicorns422/device_motorola_omap4-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/spyder" name="DirtyUnicorns422/device_motorola_spyder" remote="aokp" revision="jb-mr1" />
-  <project path="device/motorola/umts_spyder" name="DirtyUnicorns422/device_motorola_umts_spyder" remote="aokp" revision="jb-mr1" />
+  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="cm" revision="cm-10.2" />
+  <project path="device/motorola/xt907" name="device_motorola_xt907" remote="cm" revision="cm-10.2" />
+  <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="device/sample" name="device/sample" />
-  <project path="device/samsung/celox-common" name="AOKP/device_samsung_celox-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2-common" name="AOKP/device_samsung_d2-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2att" name="AOKP/device_samsung_d2att" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2cri" name="DirtyUnicorns422/android_device_samsung_d2cri" remote="aokp" revision="du" />
-  <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2usc" name="AOKP/device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d2vzw" name="AOKP/device_samsung_d2vzw" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/i9300" name="DirtyUnicorns422/device_samsung_i9300" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/msm8660-common" name="AOKP/device_samsung_msm8660-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/hercules" name="DirtyUnicorns422/device_samsung_hercules" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/d710" name="DirtyUnicorns422/android_device_samsung_d710" remote="aokp" revision="cm-10.1" />
-   <project path="device/samsung/galaxys2-common" name="DirtyUnicorns422/android_device_samsung_galaxys2-common" remote="aokp" revision="cm-10.1" />
-  <project path="device/samsung/epicmtd" name="DirtyUnicorns422/android_device_samsung_epicmtd" remote="aokp" revision="cm-10.1" /> 
-  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/omap4-common" name="CyanogenMod/android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/qcom-common" name="AOKP/device_samsung_qcom-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/smdk4412-common" name="AOKP/device_samsung_smdk4412-common" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/toroplus" name="AOKP/device_samsung_toroplus" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/tuna" name="DirtyUnicorns422/device_samsung_tuna" remote="aokp" revision="jb-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -270,6 +235,8 @@
   <project path="hardware/libhardware" name="DirtyUnicorns422/android_hardware_libhardware" remote="aokp" revision="cm-10.2" />
   <project path="hardware/libhardware_legacy" name="DirtyUnicorns422/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.2" />
   <project path="hardware/msm7k" name="DirtyUnicorns422/android_hardware_msm7k" remote="aokp" revision="cm-10.2" />
+  <project name="SlimRoms/hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="aokp" revision="jb4.3" />
+  <project name="SlimRoms/hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="aokp" revision="jb4.3" />
   <project path="hardware/qcom/audio" name="DirtyUnicorns422/android_hardware_qcom_audio" remote="aokp" revision="cm-10.2" />
   <project path="hardware/qcom/audio-caf" name="DirtyUnicorns422/android_hardware_qcom_audio-caf" remote="aokp" revision="cm-10.2" />
   <project path="hardware/qcom/bt" name="DirtyUnicorns422/android_hardware_qcom_bt" remote="aokp" revision="cm-10.2" />
@@ -292,6 +259,7 @@
   <project path="hardware/ti/omap4xxx" name="DirtyUnicorns422/android_hardware_ti_omap4xxx" remote="aokp" revision="cm-10.2" />
   <project path="hardware/ti/wlan" name="DirtyUnicorns422/android_hardware_ti_wlan" remote="aokp" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="DirtyUnicorns422/android_hardware_ti_wpan" remote="aokp" revision="cm-10.2" />
+  <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
   <project path="libcore" name="DirtyUnicorns422/android_libcore" remote="aokp" revision="DU43" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -416,11 +384,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr1" />
   <project path="vendor/du" name="DirtyUnicorns422/vendor_du" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/htc" name="DirtyUnicorns422/proprietary_vendor_htc" remote="aokp" revision="jb2" />
-  <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/motorola" name="DirtyUnicorns422/vendor_motorola" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/samsung" name="DirtyUnicorns422/vendor_samsung" remote="aokp" revision="jb-mr1" />
-
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
+  
   <project path="vendor/tmobile/apps/ThemeChooser" name="DirtyUnicorns422/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="DirtyUnicorns422/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="DirtyUnicorns422/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
