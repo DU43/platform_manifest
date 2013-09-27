@@ -211,7 +211,7 @@
   <project path="external/zlib" name="DirtyUnicorns422/android_external_zlib" remote="aokp" revision="cm-10.2" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="DirtyUnicorns422/frameworks_av" remote="aokp" revision="DU43" />
-  <project path="frameworks/base" name="DirtyUnicorns422/frameworks_base" remote="aokp" revision="DU43" />
+  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr2" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
