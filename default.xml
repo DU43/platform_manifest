@@ -391,5 +391,5 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="aokp" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="aokp" />
-  <project path="platform_manifest" name="DirtyUnicorns422/platform_manifest" remote="aokp" revision="DU43" />
+  
 </manifest>
