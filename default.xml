@@ -388,10 +388,8 @@
   <project path="vendor/du" name="DirtyUnicorns422/vendor_du" remote="aokp" revision="jb-mr1" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
   
-  <project path="vendor/tmobile/apps/ThemeChooser" name="DirtyUnicorns422/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="DirtyUnicorns422/vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="DirtyUnicorns422/vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/tmobile/products/themes" name="DirtyUnicorns422/vendor_tmobile_products_themes" remote="aokp" revision="cm-10.1" />
-
+  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="platform_manifest" name="DirtyUnicorns422/platform_manifest" remote="aokp" revision="DU43" />
 </manifest>
