@@ -50,9 +50,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="cd" revision="cm-10.2" />
-  <project path="device/motorola/xt907" name="device_motorola_xt907" remote="cd" revision="cm-10.2" />
-  <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="cd" revision="cm-10.2" />
+  
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -263,7 +261,7 @@
   <project path="hardware/ti/omap4xxx" name="DirtyUnicorns422/android_hardware_ti_omap4xxx" remote="aokp" revision="cm-10.2" />
   <project path="hardware/ti/wlan" name="DirtyUnicorns422/android_hardware_ti_wlan" remote="aokp" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="DirtyUnicorns422/android_hardware_ti_wpan" remote="aokp" revision="cm-10.2" />
-  <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" remote="cd" revision="cm-10.2" />
+  
   <project path="libcore" name="DirtyUnicorns422/android_libcore" remote="aokp" revision="DU43" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
